@@ -1,0 +1,41 @@
+{
+  "name": "npm-resume",
+  "version": "1.0.0",
+  "author": "Daksh Khetan",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dakshkhetan/npm-resume.git"
+  },
+  "bin": {
+    "daksh": "./index.js"
+  },
+  "keywords": [
+    "npm-resume",
+    "npx-resume",
+    "npm-cv",
+    "npx-cv",
+    "command-line-resume",
+    "command-line-cv",
+    "cli-resume",
+    "cli-cv",
+    "npm",
+    "npx",
+    "cli",
+    "resume",
+    "cv"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dakshkhetan/npm-resume/issues"
+  },
+  "homepage": "https://github.com/dakshkhetan/npm-resume#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.3"
+  }
+}
