@@ -1,15 +1,15 @@
 {
-  "name": "npm-resume",
+  "name": "daksh",
   "version": "1.0.0",
   "author": "Daksh Khetan",
-  "description": "",
+  "description": "Resume in terminal",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dakshkhetan/npm-resume.git"
+    "url": "git+https://github.com/dakshkhetan/cli-resume.git"
   },
   "bin": {
     "daksh": "./index.js"
@@ -31,9 +31,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dakshkhetan/npm-resume/issues"
+    "url": "https://github.com/dakshkhetan/cli-resume/issues"
   },
-  "homepage": "https://github.com/dakshkhetan/npm-resume#readme",
+  "homepage": "https://github.com/dakshkhetan/cli-resume#readme",
   "dependencies": {
     "chalk": "^4.1.0",
     "inquirer": "^7.3.3"
